@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | W05 Rafting Project</title>
+    <meta
+      name="description"
+      content="Contact the W05 Rafting team for inquiries, reservations, and more information about our services."
+    />
+    <link rel="stylesheet" href="rafting.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="wwr/">Rafting Website</a>
+        <a href="wwr/site--plan-rafting.html">Rafting Site Plan</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
+      <section>
+        <h2>Company Information</h2>
+        <p>Address: 123 Rafting St, Adventure City, Country</p>
+        <p>Phone: +123-456-7890</p>
+        <p>Email: contact@raftingexample.com</p>
 
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127188.2107196513!2d8.265594607480935!3d5.00070385468709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1067862eeaabcc29%3A0xa2b8722fb5b0b458!2sCalabar%2C%20Cross%20River!5e0!3m2!1sen!2sng!4v1729512874412!5m2!1sen!2sng"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <section>
+        <h2>Our Team</h2>
+        <div class="employee-profile">
+          <img src="employee1.jpeg" alt="Employee 1" />
+          <p>John Doe - Rafting Guide</p>
+        </div>
+        <div class="employee-profile">
+          <img src="employee2.jpeg" alt="Employee 2" />
+          <p>Jane Smith - Customer Support</p>
+        </div>
+        <div class="employee-profile">
+          <img src="employee3.jpeg" alt="Employee 3" />
+          <p>Emily Brown - Reservation Specialist</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <p>Purpose of Your Message:</p>
+          <input
+            type="radio"
+            id="general"
+            name="purpose"
+            value="General Inquiry"
+          />
+          <label for="general">General Inquiry</label><br />
+          <input
+            type="radio"
+            id="reservation"
+            name="purpose"
+            value="Reservation Question"
+          />
+          <label for="reservation">Reservation Question</label><br />
+          <input
+            type="radio"
+            id="suggestion"
+            name="purpose"
+            value="Website Suggestion"
+          />
+          <label for="suggestion">Website Suggestion</label><br />
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <label>
+            <input type="checkbox" name="subscribe" /> Please subscribe me to
+            the monthly newsletter </label
+          ><br />
+
+          <button type="submit">Submit Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;2024 W05 Rafting Project</p>
+      <a
+        href="https://www.google.com/search?sca_esv=3830138d5daf0584&sxsrf=ADLYWIIls7VOo_mFNVfpta17vL-xfyOl0g:1729513225226&q=wireframe+images&udm=2&fbs=AEQNm0A-2qeMemLzzt_2BVemHLFNuCSl5jMwuDXSDytcTb5xOFugulBwSVKrCaczAYRUt2Z5_be3-rr2W2-c6mcvRLEBy7B8OoFBW2ddfwIZ-c2oYTCDQ1iCuvHelksIAXRGLHukGddKBP6yt5C23FV63C6WSY7rsohu2QCQPF_BM43tJgshsEo&sa=X&ved=2ahUKEwiZ1bHrup-JAxWmTUEAHW7GF7cQtKgLegQIFRAB&biw=1920&bih=1009&dpr=0.67"
+        >View Wireframe</a
+      >
+    </footer>
+  </body>
+</html>
