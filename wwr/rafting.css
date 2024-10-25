@@ -1,9 +1,20 @@
-body {
-  font-family: "Roboto", sans-serif;
+
+
+*body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
+ 
 }
+
+
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
 
 header {
   background-color: #264969;
@@ -38,11 +49,17 @@ header nav ul li a {
   font-weight: bold;
 }
 
-.hero {
+ .hero {
   position: relative;
   text-align: center;
   color: white;
-}
+} 
+
+
+
+
+
+
 
 .hero-img {
   width: 100%;
@@ -60,7 +77,7 @@ header nav ul li a {
   background-color: rgba(38, 73, 105, 0.8);
   padding: 10px 20px;
   border-radius: 10px;
-}
+} 
 
 article {
   padding: 20px;
@@ -113,6 +130,9 @@ figcaption {
   font-size: 0.9rem;
   color: #264969;
   margin-top: 5px;
+}
+.abt{
+  color: #505033;;
 }
 
 footer {
@@ -173,6 +193,8 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
+
+
 
 
 
